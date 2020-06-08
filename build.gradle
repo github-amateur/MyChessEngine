@@ -1,0 +1,24 @@
+plugins
+{
+	id 'edu.sc.seis.launch4j' version '2.4.6'
+    id 'java'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories
+{
+	jcenter()
+	mavenCentral()
+}
+
+dependencies
+{
+}
+
+launch4j
+{
+	mainClassName = 'hello.SayHello'
+	headerType = 'console'
+}
